@@ -7,6 +7,6 @@ const options = {
     transports: ["websocket"]
 }
 
-const socket = io('http://localhost:3001', options);
+const socket = io('http://university-ecosystem.ru/video-api', options);
 
 export default socket;
